@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    background-image: url(https://i.ytimg.com/vi/6hkamvjtbG4/maxresdefault.jpg);
+}
+
+main, footer {
+    background-image: url(http://cdn.osxdaily.com/wp-content/uploads/2014/01/apple-30th-anniversary-mac-logo-grey-wallpaper.jpg);
+    margin: auto;
+    padding: 10px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+main section div article > p {
+    float: left;
+    margin-right: 40px;
+    font-family: sans-serif;
+    color: #888;
+    font-size: 23px;
+    width: 400px;
+}
+
+#fl::first-letter {
+    color: blue;
+}
+
+.p2 {
+
+    background-color: #ddd;
+    border: none;
+    color: #888;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: right;
+    width: 500px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+main section > img {
+    float: right;
+    width: 280px;
+}
+
+section {
+    margin: 20px 0;
+}
+.boxmid1 > img {
+    border-radius: 10px;
+}
+
+.boxmid2 p {
+    font-family: sans-serif;
+    font-size: 23px;
+}
+
+#p3::first-line {
+    color: rgb(158, 40, 55);
+}
+
+#p3 {
+    font-size: 17px;
+}
+
+.blue > p {
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+.red img {
+    width: 240px;
+}
+
+.checkmarks1 img, .checkmarks2 img {
+    width: 30px;
+}
+
+.checkmarks1 li, .checkmarks2 li {
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
+#wrap {
+    width: 345px;
+
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.boxlow {
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: left;
+    background-color: #ddd;
+    width: 100%;
+    border-radius: 10px;
+    padding: 25px 80px 25px 80px;
+     
+}
+
+.boxlow p img {
+    padding-bottom: 10px;
+    float: right;
+}
+
+
+.nav {
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding-right: 100px;
+}
+
+.ul li {
+    font-family: sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    color: #f4f4f4;
+}
+
+.logo {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #f4f4f4;
+    float: left;
+    padding: 0px 0px 0px 130px;
+}
+
+.secure {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 70px;
+    color: #f4f4f4;
+}
+
+.a1 {
+    background-color: lightgreen;
+    border: none;
+    color: #f4f4f4;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    width: 270px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.tfi {
+    padding-left: 10px;
+}
+
+footer {
+    padding-left: 30px;
+}
